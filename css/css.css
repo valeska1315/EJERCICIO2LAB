@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:sans-serif;   
+}
+.section {
+    width: 100%;
+    width: auto;
+}
+.Formulario{
+    max-width: 1000px;
+    height: 400px;
+    background-image: url(../img/fondos-degradado.jpg);
+    background-size: cover;    
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    padding: 80px;
+    box-sizing: border-box;
+    background-color:#FFFFFF;
+}   
+.Formulario input {
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left:10px;
+    box-sizing: border-box;
+    outline:  none;
+}
+.Tituloform {
+    font-size: 30px;
+}
+.Ms_form {
+    font-size: 15px;
+    margin-top: 20px;   
+}
+.Cuadro1{
+    background: none;
+    color:inherit;
+    border:none;
+    font:inherit;
+    cursor:pointer;
+    outline: inherit;
+    width: 130px;
+    height: 50px;
+    background-color:palevioletred;
+}
+.Cuadro2{
+     background: none;
+    color:inherit;
+    border:none;
+    font:inherit;
+    cursor:pointer;
+    outline: inherit;
+    width: 137px;
+    height: 50px;
+    background-color:dodgerblue;
